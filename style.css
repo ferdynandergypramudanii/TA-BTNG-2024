@@ -16,3 +16,86 @@
 .container-xxl {
     margin-top: 3rem;
 }
+
+.about-wrapper {
+    gap: 2rem;
+}
+
+.about-desc {
+    text-align: justify;
+}
+
+.type-image-wrapper {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.type-image-wrapper img{
+    width: 75%;
+}
+
+
+.menu-card {
+    border-radius: 1rem;
+    width: 7rem;
+}
+
+.menu-card h1, .menu-card p, .menu-card button {
+    font-size: .5rem;
+}
+
+.menu-card img {
+    width: 75%;
+}
+
+.menu-card-content button {
+    width: 75%;
+    background: linear-gradient(to bottom, var(--primary), var(--secondary));
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .about-wrapper {
+        gap: 10rem;
+    }
+
+    .type-image-wrapper {
+        width: 9rem;
+        height: 9rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .menu-card {
+        width: 15rem;
+    }
+
+    .menu-card h1, .menu-card p, .menu-card button {
+        font-size: 1.3rem;
+    }
+
+    .menu-card img {
+        width: 100%;
+    }
+
+    .type-image-wrapper img{
+        width: 100%;
+    }
+
+    .menu-type-card p {
+        font-size: 1rem;
+    }
+
+    .menu-card {
+        border-radius: 1rem;
+        width: 15rem;
+    }
+}
