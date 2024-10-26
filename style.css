@@ -8,3 +8,11 @@
 * {
     font-family: "Josefin Sans";
 }
+
+.hero-button {
+    background: linear-gradient(to bottom, var(--primary), var(--secondary));
+}
+
+.container-xxl {
+    margin-top: 3rem;
+}
